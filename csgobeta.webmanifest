@@ -1,0 +1,60 @@
+{
+    "lang": "en",
+    "dir": "ltr",
+    "name": "CSGO Blog 2.0",
+    "short_name": "CSGO Blog",
+    "description": "CS:GO Blog 2.0 is an unofficial fan-made recreation/remaster of blog.counter-strike.net. It was created to give the official blog website fresher, more responsive look in “Panorama UI”-esque style, while preserving all the useful content.",
+    "icons": [{
+            "src": "/css/gfx/pwa/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "3110x3110",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/css/gfx/pwa/maskable_icon_x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "scope": "/",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#303030",
+    "background_color": "#181818"
+}
