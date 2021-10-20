@@ -1618,7 +1618,7 @@ select:focus-visible {
     transform: scale(1.01);
 }
 
-#update_history a:not(#live_brokenfang) {
+#update_history a:not(#live_riptide) {
     display: inline-block;
     width: 19.5vw;
     height: 6vw;
@@ -1626,14 +1626,19 @@ select:focus-visible {
     background-repeat: no-repeat;
 }
 
-#live_brokenfang {
+#live_riptide {
     display: inline-block;
     width: 19.5vw;
     height: 12vw;
-    background: url('https://media.steampowered.com/apps/csgo/images/brokenfang/header.png') no-repeat 0 0;
-    background-size: 320%;
+    background: url('https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/riptide_blog_2.png') no-repeat 0 0;
+    background-size: 110%;
     background-position: top;
     background-repeat: no-repeat;
+}
+
+#update_brokenfang {
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_brokenfang.jpg') no-repeat 0 0;
+
 }
 
 #update_shatteredweb {
