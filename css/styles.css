@@ -1609,7 +1609,11 @@ select:focus-visible {
     overflow-y: auto;
 }
 
-#update_history a {
+#update_history a, 
+#live_update {
+    display: inline-block;
+    width: 19.5vw;
+    background-repeat: no-repeat;
     transition: filter .3s, transform .3s;
 }
 
@@ -1618,22 +1622,16 @@ select:focus-visible {
     transform: scale(1.01);
 }
 
-#update_history a:not(#live_riptide) {
-    display: inline-block;
-    width: 19.5vw;
+#update_history a:not(#live_update) {
     height: 6vw;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
-#live_riptide {
-    display: inline-block;
-    width: 19.5vw;
+#live_update {
     height: 12vw;
-    background: url('https://cdn.akamai.steamstatic.com/apps/csgo/images/blog/riptide_blog_2.png') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/images/blog/riptide_blog_2.png') no-repeat 0 0;
     background-size: 110%;
     background-position: top;
-    background-repeat: no-repeat;
 }
 
 #update_brokenfang {
