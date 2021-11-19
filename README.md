@@ -20,9 +20,9 @@ Animated Agent Models, Background Videos, CS:GO Logo, and all the Blogposts are 
 - Polish - Rowleto - 100%
 - Italian - Matitone - 100%
 - Ukranian - Ivan - 100%
-- French - Agarose - 100%
+- French - Agarose / [LEMIBANDDEXARI](https://github.com/LEMIBANDDEXARI) - 100%
 
-*You can contact us if you want to help us with the localization*
+*You can contact us if you want to help us with the localization.*
 
 ## FAQ
 **I switched to X language and while blogposts are localized, the site is not localized?**

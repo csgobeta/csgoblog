@@ -91,10 +91,10 @@ var fr_lang = [
         "Libérer les commentaires",
         "CS:GO Statut",
         "Paramètres",
-        "About",
+        "A propos",
         "FAQ",
         "Communauté",
-        "Mises à hour majeures",
+        "Mises à jour majeures",
         "Champions du Tournoi Major",
         "CS:GO ateliers communautaires",
         "Tapez la recherche ici",
@@ -118,7 +118,7 @@ var fr_lang = [
         "Pas de résultats de recherche",
         "Erreur",
         "Mauvais paramèters",
-        "Un blog créé par communauté.",
+        "Un blog créé par la communauté.",
         "“Fait avec amour et souffrance.”",
         "Toggle the Agent", //36
         "Resources", //37
