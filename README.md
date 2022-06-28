@@ -10,7 +10,7 @@ Please note, that CS:GO Blog 2.0 is not Official in any shape or form and is not
 Animated Agent Models, Background Videos, CS:GO Logo, and all the Blogposts are made and owned by [Valve and/or Valve Software®](https://www.valvesoftware.com/en/).
 
 ## Developers:
-- [Λquαꝛɪuᵴ](https://github.com/abitmoony)
+- [Aquarius](https://github.com/aquaismissing)
 - [Doruk](https://github.com/DorukSega)
 
 ## Localization Credits:
