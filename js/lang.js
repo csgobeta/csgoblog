@@ -24,7 +24,7 @@ var en_lang = [
         "You can contact us for any feedback and/or bug reports. ツ", //21
         "Links:", //22
         "Source code", //23
-        "<a href=\"https://t.me/csgobetaen\"  target=\"_blank\">Telegram channel</a>", //24
+        "", //24
         "Warning", //25
         "GOT IT", //26
         "Because Mozilla Firefox doesn't support gaussian blur, we had to rely on semitransparent gray color. Sorry for the inconvenience.",
@@ -108,7 +108,7 @@ var fr_lang = [
         "Vous pouvez nous contacter pour tout commentaire et/ou rapport de bogue. ツ",
         "Liens:",
         "Code source",
-        "<a href=\"https://t.me/csgobeta\" target=\"_blank\">Chaîne de Telegram</a>",
+        "",
         "Attention",
         "VU",
         "Parce que Mozilla Firefox ne supporte pas blur gaussien, nous devons compter sur couleur gris semitransparent. Nous sommes desolés pour l'inconvénient.",
@@ -192,7 +192,7 @@ var tr_lang = [
         "Hata raporları ve/veya geri bildirim için bizimle iletişim kurabilirisiniz. ツ",
         "Linkler:",
         "Kaynak kodu",
-        "<a href=\"https://t.me/csgobetaen\"  target=\"_blank\">Telegram kanalı</a>",
+        "",
         "UYARI",
         "ANLAŞILDI",
         "Mozilla Firefox, gauss bulanıklığını desteklemediğinden, yarı saydam gri rengi arkaplan kullanmak zorunda kaldık. Rahatsızlıktan dolayı özür dileriz.",
@@ -276,7 +276,7 @@ var ru_lang = [
         "Вы можете связаться с нами для фидбэка и/или сообщений об ошибках. ツ",
         "Ссылки:",
         "Исходный код",
-        "<a href=\"https://t.me/csgobeta\" target=\"_blank\">Telegram-канал</a>",
+        "",
         "Предупреждение",
         "ПОНЯЛ",
         "Поскольку Mozilla Firefox не поддерживает размытие по Гауссу, нам пришлось полагаться на полупрозрачный серый цвет. Извините за неудобства.",
@@ -356,11 +356,11 @@ var pl_lang = [
         "Pozostałe", //17
         "Głośność", //18
         "<p>CS:GO Blog 2.0 jest nieoficjalną, stworzoną przez fanów rekreacją/odświeżeniem <a href=\"https://blog.counter-strike.net\" target=\"_blank\">blog.counter-strike.net</a>. Powstała ona aby odświeżyć wygląd i poprawić responsywność strony naśladując styl interfejsu użytkownika “Panorama”, zachowując przy tym wszystkie najważniejsze zasoby. <br><br>Należy uważać iż CS:GO Blog 2.0 nie jest oficjalnym projektem oraz nie jest powiązany z <a href=\"https://www.valvesoftware.com\" target=\"_blank\">Valve i/lub Valve Software®</a>.</p>", //19
-        "Twórcy :", //20
+        "Twórcy:", //20
         "Możesz się z namj skontaktować jeśli posiadasz jakąś sugestię bądź znalazłeś jakiś błąd . ツ", //21
         "Linki:", //22
         "Kod źródłowy ", //23
-        "<a href=\"https://t.me/csgobetaen\"  target=\"_blank\">Kanał Telegram</a>", //24
+        "", //24
         "Uwaga", //25
         "ZROZUMIAŁE", //26
         "Przeglądarka Mozilla Firefox nie obsługuje rozmycia gaussowskiego, zostało ono zastępione przeźroczystym szarym tłem.",
@@ -444,7 +444,7 @@ var de_lang = [
         "Sie können uns für Feedback und / oder Fehlerberichte kontaktieren. ツ", // 21
         "Links:", // 22
         "Quellcode", // 23
-        "<a href=\"https://t.me/csgobetaen\" target=\"_blank\">Telegrammkanal</a>", // 24
+        "", // 24
         "Warnung", // 25
         "Ja", // 26
         "Da Mozilla Firefox keine Gaußsche Unschärfe unterstützt, mussten wir uns auf die halbtransparente graue Farbe verlassen. Entschuldigen Sie die Unannehmlichkeiten.",
@@ -528,7 +528,7 @@ var it_lang = [
         "Puoi contattarci per qualsiasi feedback e/o segnalazione di bug. ツ", // 21
         "Link:", // 22
         "Codice sorgente", // 23
-        "<a href=\"https://t.me/csgobetaen\" target=\"_blank\">Telegram channel</a>", // 24
+        "", // 24
         "Avviso", // 25
         "CAPITO", // 26
         "Poiché Mozilla Firefox non supporta la sfocatura gaussiana, abbiamo dovuto fare affidamento sul colore grigio semitrasparente. Ci scusiamo per l'inconveniente.",
@@ -612,7 +612,7 @@ var ro_lang = [
         "Ne puteți contacta pentru orice feedback și / sau rapoarte de erori. ツ", // 21
         "Link-uri:", // 22
         "Cod sursă", // 23
-        "<a href=\"https://t.me/csgobetaen\" target=\"_blank\">Canal Telegram</a>", // 24
+        "", // 24
         "Avertisment", // 25
         "Da", // 26
         "Deoarece Mozilla Firefox nu acceptă neclaritatea gaussiană, am trebuit să ne bazăm pe culoare gri semi transparent. Ne scuzăm pentru probleme nedorite.",
@@ -696,7 +696,7 @@ var uk_lang = [
         "Ви можете зв’язатися з нами щодо будь-яких відгуків та / або звітів про помилки. ツ", // 21
         "Посилання:", // 22
         "Вихідний код", // 23
-        "<a href=\"https://t.me/csgobetaen\" target=\"_blank\">Канал у Telegram</a>", // 24
+        "", // 24
         "Попередження", // 25
         "ДОБРО", // 26
         "Оскільки Mozilla Firefox не підтримує розмиття по Гаусу, нам довелося покладатися на напівпрозорий сірий колір. Вибачте за незручності.",
@@ -780,7 +780,7 @@ var pt_lang = [
         "Pode contactar-nos para qualquer sugestão e/ou denúncia de bugs. ツ", //21
         "Links:", //22
         "Código Fonte", //23
-        "<a href=\"https://t.me/csgobetaen\"  target=\"_blank\">Canal do Telegram</a>", //24
+        "", //24
         "Aviso", //25
         "ENTENDI", //26
         "Uma vez que o Mozilla Firefox não suporta desfoque gaussiano, temos de nos reger por um fundo cinzento semitransparente. Pedimos desculpa pelo incómodo.",
@@ -864,7 +864,7 @@ var br_lang = [
         "Você pode nos contatar para qualquer feedback e/ou relatórios de bug. ツ", //21
         "Links:", //22
         "Código fonte", //23
-        "<a href=\"https://t.me/csgobetaen\"  target=\"_blank\">Canal do Telegram</a>", //24
+        "", //24
         "Aviso", //25
         "ENTENDI", //26
         "Como o Mozilla Firefox não suporta desfoque gaussiano, tivemos que utilizar a cor cinza semitransparente. Desculpe pela inconveniência.",

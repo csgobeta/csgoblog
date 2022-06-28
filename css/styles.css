@@ -266,7 +266,7 @@ img {
 }
 
 .main-about {
-    padding: .6vw;
+    padding: 3vw 1vw;
     border-bottom: 0.01vw solid rgba(255, 255, 255, 0.1);
 }
 
@@ -354,8 +354,8 @@ img {
 }
 
 .about-ttl {
-    font-size: 1.2vw;
-    margin-top: .5vw;
+    font-size: 1.3vw;
+    text-align: center;
 }
 
 .t-link {
@@ -370,15 +370,9 @@ img {
 }
 
 .about-desc {
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-style: italic;
     text-align: center;
-    margin: 1vw 0;
-    padding: .5vw 0;
-    border-style: solid;
-    border-image-source: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><rect x="4" y="4" width="72" height="72" fill="transparent" stroke="white" stroke-width="1" /></svg>');
-    border-image-slice: 50%;
-    border-image-width: .8vw;
 }
 
 

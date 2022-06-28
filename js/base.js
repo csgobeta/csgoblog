@@ -725,7 +725,6 @@ function updatelangstrings() {
     $(".S").children(".tabbottom").find(".about-container").children("p").eq(1).html(langstrings[0][21]); //You can contact us for any feedback and/or bug reports.
     $(".S").children(".tabbottom").find(".links_t").text(langstrings[0][22]); //Links
     $(".S").children(".tabbottom").find(".sourcecode_t").text(langstrings[0][23]); //Source code
-    $("html").find(".telegram_t").html(langstrings[0][24]); //Telegram Channel
     $("html").find(".about-ttl").html(langstrings[0][34]); //A community–made blog.
     $("html").find(".about-desc").html(langstrings[0][35]); //“Made with love and pain.”
     $("html").find(".agent-helper").text(langstrings[0][36]); //Toggle the Agent
