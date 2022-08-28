@@ -629,17 +629,20 @@ model-viewer {
 }
 
 .Mtile {
-    position: relative;
-    height: 25vw;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 1vw;
-    background-image: url('../css/gfx/default_news.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    -webkit-box-shadow: 0vw 0vw 1.6vh 0vw rgba(0, 0, 0, 0.7);
-    box-shadow: 0vw 0vw 1.6vh 0vw rgba(0, 0, 0, 0.7);
     -moz-transition: filter .3s, transform .3s;
     transition: filter .3s, transform .3s;
+}
+
+.Mtileimg {
+    width: 100%;
+    background-image: url('../css/gfx/default_news.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 25%;
 }
 
 .Mtile:hover {
@@ -648,14 +651,13 @@ model-viewer {
 }
 
 .Mtilebottombar {
-    padding: 1.5vw;
-    position: absolute;
-    bottom: 0%;
+    padding: 0 1.1vw;
     background-color: #00000080;
+    flex: 75%;
 }
 
 .Mtiledate {
-    font-size: .8vw;
+    font-size: .7vw;
     font-weight: 500;
 }
 
@@ -663,12 +665,12 @@ model-viewer {
     font-family: 'Quantico', 'Play';
     letter-spacing: 0.1vw;
     font-weight: 700;
-    font-size: 1.7vw;
+    font-size: 1.1vw;
 }
 
 .Mtiledesc {
     display: -webkit-box;
-    font-size: 1vw;
+    font-size: .9vw;
     line-clamp: 2;
     line-height: 1.5vw;
     -webkit-line-clamp: 2;
@@ -749,7 +751,7 @@ model-viewer {
 .Mtile-alttitle {
     letter-spacing: 0.1vw;
     padding: 5%;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     font-weight: 700;
 }
 
@@ -1889,7 +1891,6 @@ select:focus-visible {
         font-size: 4vw;
     }
     .Mtile {
-        height: 58vw !important;
         margin-bottom: 2.5vw;
     }
     .Mtilebottombar {
@@ -1899,7 +1900,7 @@ select:focus-visible {
         font-size: 2.5vw;
     }
     .Mtiletitle {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
     .Mtiledesc {
         line-height: 3.5vw;
@@ -2341,8 +2342,5 @@ select:focus-visible {
     .Mtile-alt {
         width: 22vw;
         height: 14vw;
-    }
-    .Mtile {
-        height: 37vw;
     }
 }

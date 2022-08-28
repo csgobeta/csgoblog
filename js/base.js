@@ -30,7 +30,7 @@ $(document).ready(function() {
             Cookies.set("mtoggle", "true");
         } else {
             $(".model-container").hide();
-            //$(".agent-helper").show();
+            $(".agent-helper").show();
             Cookies.set("mtoggle", "false");
         }
     });
@@ -983,8 +983,8 @@ function parseposts(posts, i) {
         type = "update";
     }
     var imgurl = "./css/gfx/default_news.png"
-    if (content.includes("<img src=\"")) {
-        imgurl = content.split("<img src=\"")[1].split("\"")[0];
+    if (content.includes("src=\"")) {
+        imgurl = content.split("src=\"")[1].split("\"")[0];
     }
     var excerpt = posts[i]["excerpt"]["rendered"];
     //var author = getauthorname(posts[i]["author"]);
@@ -1007,12 +1007,14 @@ function loadblogpostpreviews(call) {
     do {
         var posts = parseposts(call, i);
         var Mtile = document.createElement("div");
+        var Mtileimg = document.createElement("div");
         var Mtilelink = document.createElement("a");
         var Mtilebottombar = document.createElement("div");
         var Mtiledate = document.createElement("div");
         var Mtiletitle = document.createElement("div");
         var Mtiledesc = document.createElement("div");
         Mtile.className = "Mtile";
+        Mtileimg.className = "Mtileimg";
         Mtilebottombar.className = "Mtilebottombar";
         Mtiledate.className = "Mtiledate";
         Mtiletitle.className = "Mtiletitle";
@@ -1024,15 +1026,16 @@ function loadblogpostpreviews(call) {
         Mtiledate.append(posts[1]);
         //desc
         Mtiledesc.insertAdjacentHTML("beforeend", posts[6]);
-        Mtile.style.backgroundImage = "url('" + posts[5] + "')";
+        Mtileimg.style.backgroundImage = "url('" + posts[5] + "')";
         Mtilebottombar.append(Mtiledate);
         Mtilebottombar.append(Mtiletitle);
         Mtilebottombar.append(Mtiledesc);
+        Mtile.append(Mtileimg);
         Mtile.append(Mtilebottombar);
         Mtilelink.append(Mtile);
         element.append(Mtilelink);
         i++;
-    } while (i <= 4);
+    } while (i <= 7);
 }
 
 function loadupdatepreviews(call) {
