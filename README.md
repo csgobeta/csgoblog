@@ -1,5 +1,5 @@
 # CS:GO BLOG 2.0
-![image](https://user-images.githubusercontent.com/14220088/118892666-e9020500-b909-11eb-87c4-bb6f6d798f14.png)
+![image](https://user-images.githubusercontent.com/31861541/187100255-471d9f57-0708-460a-8541-817258671b77.png)
 
 CS:GO Blog 2.0 is an unofficial fan-made recreation/remaster of [blog.counter-strike.net](https://blog.counter-strike.net).
 
