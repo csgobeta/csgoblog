@@ -1373,7 +1373,8 @@ select:focus-visible {
 }
 
 .uniques {
-    margin: 5% 0;
+    margin: 10% 0;
+    font-size: 1.3vw;
 }
 
 .settings-container {
@@ -1623,11 +1624,16 @@ select:focus-visible {
     background-size: cover;
 }
 
-#live_update {
+/* #live_update {
     height: 12vw;
     background: url('https://media.steampowered.com/apps/csgo/images/blog/riptide_blog_2.png') no-repeat 0 0;
     background-size: 110%;
     background-position: top;
+} */
+
+#update_riptide {
+    background: url('https://media.steampowered.com/apps/csgo/images/blog/history/update_riptide.jpg') no-repeat 0 0;
+
 }
 
 #update_brokenfang {
@@ -1639,24 +1645,28 @@ select:focus-visible {
     background: url('https://media.steampowered.com/apps/csgo/blog/images/update_shatteredweb.jpg') no-repeat 0 0;
 }
 
+#update_stockholm2021 {
+    background: url('https://media.steampowered.com/apps/csgo/images/blog/history/update_stockholm2021.jpg') no-repeat 0 0;
+}
+
 #update_berlin2019 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_berlin2019.jpg?v=2') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_berlin2019.jpg') no-repeat 0 0;
 }
 
 #update_katowice2019 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_katowice2019.jpg?v=4') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_katowice2019.jpg') no-repeat 0 0;
 }
 
 #update_boston2018 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_boston2018.jpg?v=2') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_boston2018.jpg') no-repeat 0 0;
 }
 
 #update_london2018 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_london2018.jpg?v=2') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_london2018.jpg') no-repeat 0 0;
 }
 
 #update_krakow2017 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_krakow2017.jpg?v=3') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_krakow2017.jpg') no-repeat 0 0;
 }
 
 #update_atlanta2017 {
@@ -1672,7 +1682,7 @@ select:focus-visible {
 }
 
 #update_cologne2015 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_cologne2015.jpg?v=2') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_cologne2015.jpg') no-repeat 0 0;
 }
 
 #update_katowice2015 {
@@ -1684,19 +1694,19 @@ select:focus-visible {
 }
 
 #update_jonkoping2014 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_jonkoping2014.jpg?v=2') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_jonkoping2014.jpg') no-repeat 0 0;
 }
 
 #update_cologne2014 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_cologne2014.jpg?v=4') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_cologne2014.jpg') no-repeat 0 0;
 }
 
 #update_katowice2014 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_katowice2014.jpg?v=3') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_katowice2014.jpg') no-repeat 0 0;
 }
 
 #update_jonkoping2013 {
-    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_jonkoping2013.jpg?v=2') no-repeat 0 0;
+    background: url('https://media.steampowered.com/apps/csgo/blog/images/update_jonkoping2013.jpg') no-repeat 0 0;
 }
 
 #update_dangerzone {
