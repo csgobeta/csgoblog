@@ -631,7 +631,7 @@ model-viewer {
 .Mtile {
     display: flex;
     flex-direction: row;
-    margin-bottom: 1vw;
+    margin: .7vw 0;
     -moz-transition: filter .3s, transform .3s;
     transition: filter .3s, transform .3s;
 }
@@ -1901,7 +1901,7 @@ select:focus-visible {
         font-size: 4vw;
     }
     .Mtile {
-        margin-bottom: 2.5vw;
+        margin: 2vw 0;
     }
     .Mtilebottombar {
         padding: 2.5vw;
