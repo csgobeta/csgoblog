@@ -745,6 +745,8 @@ function updatelangstrings() {
     $("#update_cologne2014").attr("onclick", "gotopage('id'," + langstrings[3][11] + ");" + "playaudio('Dblogposts');");
     $("#update_katowice2014").attr("onclick", "gotopage('id'," + langstrings[3][12] + ");" + "playaudio('Dblogposts');");
     $("#update_jonkoping2013").attr("onclick", "gotopage('id'," + langstrings[3][13] + ");" + "playaudio('Dblogposts');");
+    $("#update_stockholm2021").attr("onclick", "gotopage('id'," + langstrings[3][14] + ");" + "playaudio('Dblogposts');");
+    $("#update_columbus2016").attr("onclick", "gotopage('id'," + langstrings[3][15] + ");" + "playaudio('Dblogposts');");
 }
 
 //on language combobox changed
