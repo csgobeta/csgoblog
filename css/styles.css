@@ -266,91 +266,8 @@ img {
 }
 
 .main-about {
-    padding: 3vw 1vw;
+    padding: 2vw 1vw;
     border-bottom: 0.01vw solid rgba(255, 255, 255, 0.1);
-}
-
-.main-about img {
-    height: 4.5vw;
-    width: 4.5vw;
-    transition: filter .2s, transform .2s, box-shadow .2s;
-}
-
-.about-img-wrapper {
-    display: flex;
-    position: relative;
-    float: left;
-    margin-right: .5vw;
-    padding: .5vw;
-}
-
-.about-img-wrapper:hover img {
-    filter: brightness(1.1);
-    transform: scale(1.01);
-    -webkit-box-shadow: 0 0 .5vw 0 rgba(186, 21, 25, 0.5);
-    box-shadow: 0 0 .5vw 0 rgba(186, 21, 25, 0.5);
-}
-
-.about-img-wrapper span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    box-sizing: border-box;
-}
-
-.about-img-wrapper span:nth-child(1) {
-    transform: rotate(0deg);
-}
-
-.about-img-wrapper span:nth-child(2) {
-    transform: rotate(90deg);
-}
-
-.about-img-wrapper span:nth-child(3) {
-    transform: rotate(180deg);
-}
-
-.about-img-wrapper span:nth-child(4) {
-    transform: rotate(270deg);
-}
-
-.about-img-wrapper span:nth-child(2):before {
-    animation-delay: -5s;
-}
-
-.about-img-wrapper span:nth-child(4):before {
-    animation-delay: -5s;
-}
-
-.about-img-wrapper span:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: .1vw;
-    background: #ffffff80;
-    animation: border 10s linear infinite;
-}
-
-@keyframes border {
-    0% {
-        transform: scaleX(0);
-        transform-origin: left;
-    }
-    50% {
-        transform: scaleX(1);
-        transform-origin: left;
-    }
-    50.1% {
-        transform: scaleX(1);
-        transform-origin: right;
-    }
-    100% {
-        transform: scaleX(0);
-        transform-origin: right;
-    }
 }
 
 .about-ttl {
@@ -358,23 +275,21 @@ img {
     text-align: center;
 }
 
-.t-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 1vw;
-}
-
-.t-link .material-icons {
-    font-size: 1.5vw;
-}
-
-.about-desc {
+.about-desc, .monthly-desc {
     font-size: 1vw;
     font-style: italic;
     text-align: center;
 }
 
+.monthly {
+    padding: 3vw 1vw;
+    border-bottom: 0.01vw solid rgba(255, 255, 255, 0.1);
+}
+
+#monthly {
+    font-size: 50px;
+    text-align: center;
+}
 
 /* slightly transparent fallback */
 

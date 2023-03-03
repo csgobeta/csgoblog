@@ -111,11 +111,27 @@
     </div>
     <div class="rightbar">
         <div class="main-about">
-            <div style="overflow: auto;">
-                <div class="about-ttl">A community–made blog.</div>
-            </div>
+            <div class="about-ttl">A community–made blog.</div>
             <div class="about-desc"><i>“Made with love and pain.”</i></div>
         </div>
+        <div class="monthly" style="display: none;">
+            <div id="monthly"></div>
+            <div class="monthly-desc">Unique players last month</div>
+        </div>
+        <script language="javascript">
+            $.ajax({
+                type: 'GET',
+                url: 'https://api.steampowered.com/ICSGOServers_730/GetMonthlyPlayerCount/v1?format=json&origin=https:%2F%2Fblog.csgobeta.net',
+                dataType: 'json',
+                cache: true,
+                success: function (data) {
+                    if (data && data.result && data.result.players) {
+                        $('#monthly').html(data.result.players.toLocaleString("en-US"));
+                        $('.monthly').show();
+                    }
+                }
+            });
+        </script>
         <div id="update_history" class="sidebar_item sidebar_container">
             <p class="uniques">Major Updates</p>
             <a href="https://counter-strike.net/riptide" id="update_riptide" title="Operation Riptide" target="_blank"></a>
@@ -343,7 +359,7 @@
                 <div class="settings-container volumecont">
                     <div class="settingsname volume_t">Volume</div>
                     <div class="slider-container">
-                        <input type="range" min="0" max="100" value="20" class="Svolume slider" onchange="adjustvolume(this.value/100); Cookies.set('v',this.value);">
+                        <input type="range" min="0" max="100" value="5" class="Svolume slider" onchange="adjustvolume(this.value/100); Cookies.set('v',this.value);">
                     </div>
                     <div class="Svolumeval slidervalue">20</div>
                 </div>

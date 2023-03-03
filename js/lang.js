@@ -39,7 +39,8 @@ var en_lang = [
         "Toggle the Agent", //36
         "Resources", //37
         "Dashboard", //38
-        "Copied to Clipboard!" //39
+        "Copied to Clipboard!", //39
+        "Unique players last month" //40
     ],
     [
         "Mon",
@@ -125,7 +126,8 @@ var fr_lang = [
         "Toggle the Agent", //36
         "Resources", //37
         "Dashboard", //38
-        "Copied to Clipboard!" //39
+        "Copied to Clipboard!", //39
+        "Unique players last month" //40
     ],
     [
         "Lun",
@@ -211,7 +213,8 @@ var tr_lang = [
         "Karakteri Göster", //36
         "Kaynaklar", //37
         "Gösterge Paneli", //38
-        "Panoya Kopyalandı!" //39
+        "Panoya Kopyalandı!", //39
+        "Unique players last month" //40
     ],
     [
         "Paz",
@@ -265,7 +268,7 @@ var ru_lang = [
         "Cписки изменений",
         "Состояние CS:GO",
         "Настройки",
-        "Об игре",
+        "О проекте",
         "ЧЗВ",
         "Комьюнити",
         "Крупные обновления",
@@ -297,7 +300,8 @@ var ru_lang = [
         "Включить Агента", //36
         "Ресурсы", //37
         "Главное меню", //38
-        "Скопировано!" //39
+        "Скопировано!", //39
+        "Unique players last month" //40
     ],
     [
         "Пн.",
@@ -383,7 +387,8 @@ var pl_lang = [
         "Przełącz agenta", //36
         "Zasoby", //37
         "Panel główny", //38
-        "Skopiowane do schowka!" //39
+        "Skopiowane do schowka!", //39
+        "Unique players last month" //40
     ],
     [
         "Pon",
@@ -469,7 +474,8 @@ var de_lang = [
         "Agent umschalten", // 36
         "Ressourcen", // 37
         "Dashboard", //38
-        "In die Zwischenablage kopiert!" //39
+        "In die Zwischenablage kopiert!", //39
+        "Unique players last month" //40
     ],
     [
         "Mo",
@@ -555,7 +561,8 @@ var it_lang = [
         "Attiva/disattiva l'Agente", //36
         "Risorse", //37
         "Pannello di Controllo", //38
-        "Copiato negli appunti!" //39
+        "Copiato negli appunti!", //39
+        "Unique players last month" //40
     ],
     [
         "Lun",
@@ -641,7 +648,8 @@ var ro_lang = [
         "Schibmați agentul", // 36
         "Resurse", // 37
         "Dashboard", //38
-        "Copiat în Clipboard!" //39
+        "Copiat în Clipboard!", //39
+        "Unique players last month" //40
     ],
     [
         "Lu",
@@ -727,7 +735,8 @@ var uk_lang = [
         "Змінити агента", //36
         "Ресурси", //37
         "Панель приладів", //38
-        "Скопійовано в буфер обміну!" //39
+        "Скопійовано в буфер обміну!", //39
+        "Unique players last month" //40
     ],
     [
         "Пнд",
@@ -813,7 +822,8 @@ var pt_lang = [
         "Toggle the Agent", //36
         "Resources", //37
         "Dashboard", //38
-        "Copied to Clipboard!" //39
+        "Copied to Clipboard!", //39
+        "Unique players last month" //40
     ],
     [
         "Seg",
@@ -899,7 +909,8 @@ var br_lang = [
         "Alterar o Agente", //36
         "Recursos", //37
         "Painel", //38
-        "Copiado para a área de transferência!" //39
+        "Copiado para a área de transferência!", //39
+        "Unique players last month" //40
     ],
     [
         "Seg",

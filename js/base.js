@@ -68,9 +68,9 @@ $(window).on("orientationchange", function() {
     }
 });
 
-function csbetalog(info) {
-    console.log("%c[CS:GO BLOG 2.0]" + "%c " + info, 'color: #8c0f12', "color:black");
-}
+// function csbetalog(info) {
+//     console.log("%c[CS:GO BLOG 2.0]" + "%c " + info, 'color: #8c0f12', "color:black");
+// }
 
 function load() {
 
@@ -85,8 +85,8 @@ function load() {
             deleteparameter("l");
         }
     }
-    csbetalog("");
-    csbetalog("Language: " + lang);
+    // csbetalog("");
+    // csbetalog("Language: " + lang);
 
     if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1 && Cookies.get("not_firsttime") != "true") { //checks for firefox
         if (Cookies.get("not_firsttime") == "true") {
@@ -94,21 +94,21 @@ function load() {
         }
         //Mozilla warning
         popup(getlang()[0][25], getlang()[0][27], getlang()[0][26]);
-        csbetalog("First Time: false");
+        // csbetalog("First Time: false");
         Cookies.set("not_firsttime", "true");
     } else if ((navigator.userAgent.indexOf('Trident/') > 0 || navigator.userAgent.indexOf('MSIE ') > 0) && Cookies.get("not_firsttime") != "true") {
         if (Cookies.get("not_firsttime") == "true") {
             $(".agent-helper").hide();
         }
         popup(getlang()[0][25], getlang()[0][28], getlang()[0][26]);
-        csbetalog("First Time: false");
+        // csbetalog("First Time: false");
         Cookies.set("not_firsttime", "true");
     } else {
         if (Cookies.get("not_firsttime") == "true") {
             $(".agent-helper").hide();
-            csbetalog("First Time: false");
+            // csbetalog("First Time: false");
         } else {
-            csbetalog("First Time: true");
+            // csbetalog("First Time: true");
         }
         Cookies.set("not_firsttime", "true");
     }
@@ -120,7 +120,7 @@ function load() {
     } else {
         adjustvolume(0.2);
     }
-    csbetalog("Volume: " + $(".Svolumeval").text());
+    // csbetalog("Volume: " + $(".Svolumeval").text());
 
     //background video
     if (Cookies.get("b") != undefined) {
@@ -128,7 +128,7 @@ function load() {
     } else {
         vidchange("ancient");
     }
-    csbetalog("Background Video: " + Cookies.get("b"));
+    // csbetalog("Background Video: " + Cookies.get("b"));
 
     //model viewer
     if (Cookies.get("mtoggle") == "true" && /iPad|iPhone|iPod/.test(navigator.userAgent) == false) {
@@ -356,7 +356,7 @@ function doacall(type, extra, extra2, extra3) {
                 xmlhttp.open("GET", url, false);
                 xmlhttp.send();
             } catch (error) {
-                csbetalog(error);
+                // csbetalog(error);
             }
         } else if (lang != undefined || lang != "") {
             try {
@@ -379,7 +379,7 @@ function doacall(type, extra, extra2, extra3) {
                 xmlhttp.open("GET", url, false);
                 xmlhttp.send();
             } catch (error) {
-                csbetalog(error);
+                // csbetalog(error);
             }
         }
         if (type == "blogpost") {
@@ -731,6 +731,7 @@ function updatelangstrings() {
     $("html").find(".resr-dd").text(langstrings[0][37]); // Resources
     $("html").find(".tabD_l").text(langstrings[0][38]); // Dashboard
     $("html").find(".url-tooltip").text(langstrings[0][39]); // Copied to Clipboard!
+    $("html").find(".monthly-desc").text(langstrings[0][40]); // Unique players last month
     $("#update_berlin2019").attr("onclick", "gotopage('id'," + langstrings[3][0] + ");" + "playaudio('Dblogposts');");
     $("#update_katowice2019").attr("onclick", "gotopage('id'," + langstrings[3][1] + ");" + "playaudio('Dblogposts');");
     $("#update_london2018").attr("onclick", "gotopage('id'," + langstrings[3][2] + ");" + "playaudio('Dblogposts');");
